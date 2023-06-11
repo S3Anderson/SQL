@@ -1,0 +1,43 @@
+Create Table Office_Supplies (id integer primary key, name text, price integer, style text, aisle text);
+
+INSERT into Office_Supplies VALUES
+(1, 'Binders', 5, 'Large', 1),
+(2, 'Notebooks', 3, 'Lined', 2),
+(3, 'Pens', 1.50, 'Black', 3),
+(4, 'Markers', 2, 'MultiColor', 2),
+(5, 'Bookmarks', .50, 'Variety', 3),
+(6, 'Printers', 40, 'HP', 4),
+(7, 'Ink', 50, 'All_Colors', 4),
+(8, 'Printer_Paper', 8, 'Plain', 5),
+(9, 'White_Boards' , 5, 'Large', 6),
+(10, 'Dry_Erase', 1, 'Single', 6),
+(11, 'Posters', 3, 'Large', 7),
+(12, 'Desks', 100, 'Office', 8),
+(13, 'Chairs', 75, 'Office', 9),
+(14, 'Computers', 200, 'HP', 10),
+(15, 'Energy_Drinks', 1, 'RedBull', 11);
+
+--display the database ordered by price.
+Select * From Office_Supplies
+Order By price desc;
+
+--what is the avg price of items in the bulk section? 
+SELECT AVG(price) "avg bulk item price"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
